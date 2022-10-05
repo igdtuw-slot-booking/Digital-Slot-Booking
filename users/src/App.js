@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Admin from './components/Admin';
+import Admin from './components/Admin/Admin';
 
 
 function App() {
