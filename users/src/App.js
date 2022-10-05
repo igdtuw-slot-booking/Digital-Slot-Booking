@@ -1,12 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Admin from './components/Admin/Admin';
+import LoginA from "./components/loginpage/loginadmin";
 
 
 function App() {
   return(
     <>
-      <Admin />
+      <LoginA />
     </>
+  
   )
   
 }
