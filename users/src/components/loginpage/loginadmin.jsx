@@ -38,7 +38,6 @@ export default function loginadmin() {
 const MainContent = styled.div`
             
             box-sizing:border-box;
-
             display:flex;
             flex-direction:column;
             justify-content:center;
