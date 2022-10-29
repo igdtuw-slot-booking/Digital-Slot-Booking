@@ -6,8 +6,7 @@ import Cards from './Cards'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Set from './Set'
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import Nav from '././Navbar';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 const Search = () => {
@@ -41,22 +40,8 @@ const Search = () => {
     return (
         <>
 
-
-      <Navbar bg="light" fixed="top" className='search'>
-        <Container>
-          <Navbar.Brand href="#home">
-            
-            <img
-              alt=""
-              src="https://drive.google.com/uc?export=view&id=1Hj1rjs9d8mSbQp3LTRMkKh3Xwvck0QA2"
-              width="130"
-              height="50"
-              className="d-inline-block align-top"
-            />{' '}
-
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
+         <Nav />
+      
   
             <MDBRow sm="9" > 
             <div className="navbar_backspace d-flex justify-content-between align-items-center">
@@ -106,17 +91,7 @@ const Search = () => {
 
             <MDBRow>
                 <MDBCol md='2' className="side_nav d-flex align-items-center">
-                    <Card style={{ width: '10rem', height: '10rem', border: "none" }} className=" d-flex justify-content-space-evenly align-content-center">
-                        <Card.Body className='d-flexflex-direction-column align-items-center'>
-                            <Card.Text >
-                                <Button as="input" type="button" value="Dashboard" variant='side_button' />
-                            </Card.Text>
-                            <Card.Text>
-                                <Button as="input" type="button" value="Book Venue" variant='side_button' />
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-
+                    
                 </MDBCol>
                 <MDBCol md='10'>
                     <section className='iteam_section mt-4 container'>
