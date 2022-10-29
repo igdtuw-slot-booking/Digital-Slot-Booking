@@ -6,7 +6,8 @@ import Cards from './Cards'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Set from './Set'
-import Nav from '././Navbar';
+import Nav from '../../Navbar/Navbar.js';
+
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 const Search = () => {
@@ -91,7 +92,17 @@ const Search = () => {
 
             <MDBRow>
                 <MDBCol md='2' className="side_nav d-flex align-items-center">
-                    
+                    <Card style={{ width: '10rem', height: '10rem', border: "none" }} className=" d-flex justify-content-space-evenly align-content-center">
+                        <Card.Body className='d-flexflex-direction-column align-items-center'>
+                            <Card.Text >
+                                <Button as="input" type="button" value="Dashboard" variant='side_button' />
+                            </Card.Text>
+                            <Card.Text>
+                                <Button as="input" type="button" value="Book Venue" variant='side_button' />
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
                 </MDBCol>
                 <MDBCol md='10'>
                     <section className='iteam_section mt-4 container'>
