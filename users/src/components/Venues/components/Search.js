@@ -5,8 +5,9 @@ import Form from 'react-bootstrap/Form'
 import Cards from './Cards'
 import Button from 'react-bootstrap/Button';
 import Set from './Set'
-import Nav from '././Navbar';
+import Nav from '../../Navbar/Navbar';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import Card from 'react-bootstrap/Card';
 
 const Search = () => {
 
@@ -39,11 +40,12 @@ const Search = () => {
     return (
         <>
 
-        <Nav />
+       
       
   
             <MDBRow sm="9" > 
             <div className="navbar_backspace d-flex justify-content-between align-items-center">
+            <Nav />
             </div>
             </MDBRow> 
 
