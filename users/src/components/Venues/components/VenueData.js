@@ -2,7 +2,7 @@ const Venuedata = [
     {
         id: 1,
         rname: "Auditorium",
-        imgdata: "https://drive.google.com/uc?export=view&id=10aZQDxsJ7YhlJBVzCEE1xCSQlGsOLl5W",
+        imgdata: "https://res.cloudinary.com/dgl4djgba/image/upload/v1667108449/cld-sample-2.jpg",
         address: "Main Gate, IGDTUW",
         delimg: "",
         somedata: "Can house upto 1000 people",
