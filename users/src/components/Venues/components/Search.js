@@ -3,12 +3,9 @@ import Venuedata from './VenueData'
 import "./style.css"
 import Form from 'react-bootstrap/Form'
 import Cards from './Cards'
-import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Set from './Set'
-import Nav from '../../Navbar/Navbar.js';
-import Sidebar from "../../Sidebar/Sidebar";
-
+import Nav from '././Navbar';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 const Search = () => {
@@ -42,7 +39,7 @@ const Search = () => {
     return (
         <>
 
-         <Nav />
+        <Nav />
       
   
             <MDBRow sm="9" > 

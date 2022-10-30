@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LoginA from "./components/loginpage/loginadmin";
-
+import Venues from "./components/Venues";
 
 function App() {
   return(
     <>
-      <LoginA />
+      <Venues />
     </>
   
   )
