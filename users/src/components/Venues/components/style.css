@@ -184,12 +184,14 @@ body{
 }
 .search{
     font-family: Equinox;
-    
+    display: flex;
+    flex-direction: row;
 }
 /*Side NAv*/
 .side_nav{
     padding: 4rem 3rem 4rem 3rem;
-     
+    display: flex;
+    flex-direction: column;
 }
 .venue{
     width: 900px;

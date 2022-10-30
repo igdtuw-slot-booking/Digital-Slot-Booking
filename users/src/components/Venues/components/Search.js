@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Set from './Set'
 import Nav from '../../Navbar/Navbar.js';
+import Sidebar from "../../Sidebar/Sidebar";
 
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
@@ -67,7 +68,7 @@ const Search = () => {
 
             <MDBRow>
                 <MDBCol md='8'>
-                    <Form className='d-flex justify-content-center align-items-center mt-3 venue'>
+                    <Form className='search d-flex justify-content-center align-items-center mt-3 venue'>
                         <Form.Group className=" mx-2 col-lg-4" controlId="formBasicEmail">
 
                             <Form.Control type="text"
@@ -88,10 +89,11 @@ const Search = () => {
                 </div>
 
             </MDBRow>
-
+            <MDBRow> </MDBRow>
 
             <MDBRow>
                 <MDBCol md='2' className="side_nav d-flex align-items-center">
+                   
                     <Card style={{ width: '10rem', height: '10rem', border: "none" }} className=" d-flex justify-content-space-evenly align-content-center">
                         <Card.Body className='d-flexflex-direction-column align-items-center'>
                             <Card.Text >
