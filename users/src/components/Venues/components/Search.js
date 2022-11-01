@@ -40,11 +40,8 @@ const Search = () => {
     return (
         <>
 
-       
-      
-  
             <MDBRow sm="9" > 
-            <div className="navbar_backspace d-flex justify-content-between align-items-center">
+            <div className=" d-flex justify-content-between align-items-center">
             <Nav />
             </div>
             </MDBRow> 

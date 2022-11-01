@@ -183,7 +183,6 @@ body{
     }
 }
 .search{
-    font-family: Equinox;
     display: flex;
     flex-direction: row;
 }
