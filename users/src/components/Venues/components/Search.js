@@ -4,9 +4,10 @@ import "./style.css"
 import Form from 'react-bootstrap/Form'
 import Cards from './Cards'
 import Button from 'react-bootstrap/Button';
-import Set from './Set';
-import Nav from '../../Navbar/Navbar.js';
+import Set from './Set'
+import Nav from '../../Navbar/Navbar';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import Card from 'react-bootstrap/Card';
 
 const Search = () => {
 
@@ -39,11 +40,9 @@ const Search = () => {
     return (
         <>
 
-        <Nav />
-      
-  
             <MDBRow sm="9" > 
-            <div className="navbar_backspace d-flex justify-content-between align-items-center">
+            <div className=" d-flex justify-content-between align-items-center">
+            <Nav />
             </div>
             </MDBRow> 
 
@@ -65,7 +64,7 @@ const Search = () => {
 
             <MDBRow>
                 <MDBCol md='8'>
-                    <Form className='d-flex justify-content-center align-items-center mt-3 venue'>
+                    <Form className='search d-flex justify-content-center align-items-center mt-3 venue'>
                         <Form.Group className=" mx-2 col-lg-4" controlId="formBasicEmail">
 
                             <Form.Control type="text"
@@ -86,11 +85,22 @@ const Search = () => {
                 </div>
 
             </MDBRow>
-
+            <MDBRow> </MDBRow>
 
             <MDBRow>
                 <MDBCol md='2' className="side_nav d-flex align-items-center">
-                    
+                   
+                    <Card style={{ width: '10rem', height: '10rem', border: "none" }} className=" d-flex justify-content-space-evenly align-content-center">
+                        <Card.Body className='d-flexflex-direction-column align-items-center'>
+                            <Card.Text >
+                                <Button as="input" type="button" value="Dashboard" variant='side_button' />
+                            </Card.Text>
+                            <Card.Text>
+                                <Button as="input" type="button" value="Book Venue" variant='side_button' />
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
                 </MDBCol>
                 <MDBCol md='10'>
                     <section className='iteam_section mt-4 container'>
